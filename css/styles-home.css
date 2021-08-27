@@ -2,11 +2,12 @@
   box-sizing: border-box; }
 
 body {
-  margin: 0; }
+  margin: 0;
+  background-color: #cbc5ae; }
 
 #home-landing-container {
   background-color: #cbc5ae;
-  height: 50vh;
+  height: 35vh;
   position: relative; }
 
 #hero-banner {
@@ -24,19 +25,24 @@ body {
   font-size: 1.5rem; }
 
 #border-wrapper {
-  background-color: #cbc5ae;
-  height: 30vh;
+  height: 75vh;
   position: relative; }
 
 #header-border-bottom-scroll {
   background-color: #c8583e;
-  position: relative;
-  height: 75vh;
+  position: absolute;
+  bottom: -16rem;
+  right: 0;
+  height: 85vh;
+  width: 100vw;
   transform: skewY(-20deg); }
 
 .rounded-square {
   position: absolute;
-  bottom: 5rem; }
+  bottom: 4rem; }
+
+.rounded-square::before {
+  content: url("/media/roundedPrimarySquare.svg"); }
 
 #about {
   background-color: #c8583e;
