@@ -1,0 +1,62 @@
+$color-primary: #cbc5ae;
+$color-accent: #c8583e;
+$header-font: "Lato", sans-serif;
+$text-font: "Oswald", sans-serif;
+
+* {
+  box-sizing: border-box;
+  //\border: 1px solid;
+}
+
+body {
+  margin: 0;
+}
+#home-landing-container {
+  background-color: $color-primary;
+  height: 50vh;
+  position: relative;
+}
+
+#hero-banner {
+  position: fixed;
+  padding: 5rem 5rem;
+}
+
+#hero-text {
+  h1 {
+    font-size: 4rem;
+    font-family: $header-font;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+#hero-subtext {
+  h3 {
+    font-family: $header-font;
+    font-size: 1.5rem;
+  }
+}
+
+#border-wrapper {
+  background-color: $color-primary;
+  height: 30vh;
+  position: relative;
+}
+
+#header-border-bottom-scroll {
+  background-color: $color-accent;
+  position: relative;
+  height: 75vh;
+
+  transform: skewY(-20deg);
+}
+.rounded-square {
+  position: absolute;
+  bottom: 5rem;
+}
+
+#about {
+  background-color: $color-accent;
+  height: 100vh;
+}

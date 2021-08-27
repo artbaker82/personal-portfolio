@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+#home-landing-container {
+  background-color: #cbc5ae;
+  height: 50vh;
+  position: relative; }
+
+#hero-banner {
+  position: fixed;
+  padding: 5rem 5rem; }
+
+#hero-text h1 {
+  font-size: 4rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  margin: 0; }
+
+#hero-subtext h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem; }
+
+#border-wrapper {
+  background-color: #cbc5ae;
+  height: 30vh;
+  position: relative; }
+
+#header-border-bottom-scroll {
+  background-color: #c8583e;
+  position: relative;
+  height: 75vh;
+  transform: skewY(-20deg); }
+
+.rounded-square {
+  position: absolute;
+  bottom: 5rem; }
+
+#about {
+  background-color: #c8583e;
+  height: 100vh; }
